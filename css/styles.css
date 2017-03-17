@@ -8,7 +8,7 @@
  }
  button {
    float: right;
-   background-color:#94ff42;
+   background-color:#77bc4f;
  }
 .well {
   overflow: auto;
@@ -34,22 +34,22 @@ img {
 /*styling for sections*/
 .jumbotron {
   background: #8a8c83; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#8a8c83, #94ff42, #8a8c83); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#8a8c83, #94ff42, #8a8c83); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#8a8c83, #94ff42, #8a8c83); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#8a8c83, #94ff42, #8a8c83); /* Standard syntax */
-}
-#contact li {
-  display: inline;
+  background: -webkit-linear-gradient(#8a8c83, #77bc4f, #8a8c83); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#8a8c83, #77bc4f, #8a8c83); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#8a8c83, #77bc4f, #8a8c83); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#8a8c83, #77bc4f, #8a8c83); /* Standard syntax */
 }
 
 /*misc styling for spans etc*/
 .teal {
   color: #42e5f4;
+  font-weight: bold;
 }
 .purple {
   color: #7a0cc9;
+  font-weight: bold;
 }
 .gray {
   color: #6f6f70;
+  font-weight: bold;
 }
