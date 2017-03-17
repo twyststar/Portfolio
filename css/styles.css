@@ -1,10 +1,37 @@
+.container {
+  background-image: url(http://www.designbolts.com/wp-content/uploads/2013/02/Golf-Shirt-Grey-Seamless-Pattern-For-Website-Background.jpg);
+}
+
+/*styling for elements*/
+ h1 {
+   margin: auto;
+ }
+ button {
+   float: right;
+   background-color:#94ff42;
+ }
+.well {
+  overflow: auto;
+}
+/*styling for images*/
+.lstar {
+  width: 60%;
+  height: auto;
+}
+.rstar {
+  width: 60%;
+  height: auto;
+  float: right;
+}
 img {
   width: 100%;
   height: auto;
 }
- h1 {
-   margin: auto;
- }
+.icon {
+  width: 100px;
+  height: auto;
+}
+/*styling for sections*/
 .jumbotron {
   background: #8a8c83; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#8a8c83, #94ff42, #8a8c83); /* For Safari 5.1 to 6.0 */
@@ -12,14 +39,17 @@ img {
   background: -moz-linear-gradient(#8a8c83, #94ff42, #8a8c83); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#8a8c83, #94ff42, #8a8c83); /* Standard syntax */
 }
-
-.lstar {
-  width: 60%;
-  height: auto;
+#contact li {
+  display: inline;
 }
 
-.rstar {
-  width: 60%;
-  height: auto;
-  float: right;
+/*misc styling for spans etc*/
+.teal {
+  color: #42e5f4;
+}
+.purple {
+  color: #7a0cc9;
+}
+.gray {
+  color: #6f6f70;
 }
