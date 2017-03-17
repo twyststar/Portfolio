@@ -6,9 +6,13 @@
  h1 {
    margin: auto;
  }
+ h2 {
+   background-color: #77bc4f;
+ }
  button {
    float: right;
    background-color:#77bc4f;
+   clear: both;
  }
 .well {
   overflow: auto;
@@ -42,7 +46,7 @@ img {
 
 /*misc styling for spans etc*/
 .teal {
-  color: #42e5f4;
+  color: #4fa8bc;
   font-weight: bold;
 }
 .purple {
