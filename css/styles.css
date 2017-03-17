@@ -1,11 +1,8 @@
+/*styling for elements, whole classes*/
 .container {
   background-image: url(http://www.designbolts.com/wp-content/uploads/2013/02/Golf-Shirt-Grey-Seamless-Pattern-For-Website-Background.jpg);
 }
 
-/*styling for elements*/
-#story li {
-  clear: left;
-}
  h1 {
    margin: auto;
  }
@@ -20,6 +17,29 @@
 .well {
   overflow: auto;
 }
+
+/*styling for sections*/
+.jumbotron {
+  background: #8a8c83; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#8a8c83, #77bc4f, #8a8c83); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#8a8c83, #77bc4f, #8a8c83); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#8a8c83, #77bc4f, #8a8c83); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#8a8c83, #77bc4f, #8a8c83); /* Standard syntax */
+}
+#story li {
+  clear: left;
+}
+.leftcol {
+border-right: 1px solid #8a8c83;
+}
+.contact ul {
+  width: 100%;
+}
+.contact li {
+  width: 30%;
+  padding-left: 15%;
+}
+
 /*styling for images*/
 .lstar {
   width: 60%;
@@ -53,18 +73,7 @@ img {
   width: 50%;
   height: auto;
 }
-/*styling for sections*/
-.jumbotron {
-  background: #8a8c83; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#8a8c83, #77bc4f, #8a8c83); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#8a8c83, #77bc4f, #8a8c83); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#8a8c83, #77bc4f, #8a8c83); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#8a8c83, #77bc4f, #8a8c83); /* Standard syntax */
-}
-.col-sm-6 {
-border-left: 1px solid #8a8c83;
-border-right: 1px solid #8a8c83;
-}
+
 /*misc styling for spans etc*/
 .teal {
   color: #4fa8bc;
