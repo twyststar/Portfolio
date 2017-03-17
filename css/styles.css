@@ -3,6 +3,9 @@
 }
 
 /*styling for elements*/
+#story li {
+  clear: left;
+}
  h1 {
    margin: auto;
  }
@@ -35,6 +38,21 @@ img {
   width: 100px;
   height: auto;
 }
+.rsmall {
+  width: 150px;
+  height: auto;
+  float: right;
+}
+.lsmall {
+  padding: 5px;
+  width: 120px;
+  height: auto;
+  float: left;
+}
+.beach {
+  width: 50%;
+  height: auto;
+}
 /*styling for sections*/
 .jumbotron {
   background: #8a8c83; /* For browsers that do not support gradients */
@@ -43,7 +61,10 @@ img {
   background: -moz-linear-gradient(#8a8c83, #77bc4f, #8a8c83); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#8a8c83, #77bc4f, #8a8c83); /* Standard syntax */
 }
-
+.col-sm-6 {
+border-left: 1px solid #8a8c83;
+border-right: 1px solid #8a8c83;
+}
 /*misc styling for spans etc*/
 .teal {
   color: #4fa8bc;
