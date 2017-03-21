@@ -10,7 +10,7 @@ _This is a portfolio webpage made for week 1 solo project at Epicodus._
 
 ## Setup/Installation Requirements
 
-* _View at <twyststar.github.io/portfolio>_
+* _View at https://twyststar.github.io/portfolio_
 * _OR_
 * _Clone this repository to desktop_
 * _Open index.html with web browser_
